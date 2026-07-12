@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+html,
+body,
+#root {
+    min-height: 100%;
+}
+
+
+body {
+    margin: 0;
+
+    background:
+    radial-gradient(
+        circle at top left,
+        rgba(34,211,238,0.25),
+        transparent 35%
+    ),
+    radial-gradient(
+        circle at bottom right,
+        rgba(139,92,246,0.25),
+        transparent 40%
+    ),
+    linear-gradient(
+        135deg,
+        #071129,
+        #0f1f4d,
+        #29134a
+    );
+
+    color: white;
+
+    font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+}
+html.dark{
+    background:#09111d;
+    color:white;
+}
+
+html.light{
+    background:#edf2f7;
+    color:#111827;
+}
+
+body{
+    transition:0.4s;
+}
+select,
+option {
+    color: black !important;
+    background-color: white !important;
+}
