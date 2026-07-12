@@ -127,6 +127,31 @@ npm run dev
 - Cloud Deployment
 
 ---
+## Project Screenshots
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Students
+![Students](screenshots/students.png)
+
+### Attendance
+![Attendance](screenshots/attendance.png)
+
+### Daily Check-ins
+![Check-ins](screenshots/checkins.png)
+
+### Counselor
+![Counselor](screenshots/counselor.png)
+
+### Academic
+![Academic](screenshots/academic.png)
+
+### Prediction
+![Prediction](screenshots/prediction.png)
+
+### Analytics
+![Analytics](screenshots/analytics.png)
 
 ## Author
 
